@@ -17,6 +17,11 @@ hr
 	width: 100%;
 }
 
+td
+{
+	padding: 4px;
+}
+
 footer
 {
 	margin-top: 50px;
