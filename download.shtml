@@ -1,0 +1,56 @@
+<!--#include file="res/header.html" -->
+
+<title><!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en download_downloads" --> - LibertyBSD</title>
+
+<h2><!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en download_downloads" --></h2>
+
+<h2><!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en download_current_mirrors" --></h2>
+
+<center>
+<table border=2>
+	<tr>
+		<td><b><!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en download_host" --> </b></td>
+		<td><b><!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en download_type" --> </b></td>
+		<td><b><!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en download_location" --> </b></td>
+		<td><b><!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en download_protocols" --> </b></td>
+	</tr>
+	<tr>
+		<td><a href="https://www.allbsd.org/">AllBSD</a></td>
+		<td><!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en download_full" --></td>
+		<td><!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en location_chiba_japan" --></td>
+		<td><a href="https://pub.allbsd.org/LibertyBSD/">HTTP(S)</a>,
+			<a href="ftp://ftp.allbsd.org/pub/LibertyBSD/">FTP</a>,
+			<a href="rsync://rsync.allbsd.org">rsync</a></td>
+	</tr>
+	<tr>
+		<td><a href="https://delwink.com/">Delwink Software</a></td>
+		<td><!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en download_install_only" --></td>
+		<td><!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en location_usa" --></td>
+		<td><a href="https://delwink.com/pub/LibertyBSD">HTTP(S)</a></td>
+	</tr>
+	<tr>
+		<td><a href="https://libertybsd.net/">LibertyBSD</a></td>
+		<td><!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en download_full" --></td>
+		<td><!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en location_texas_usa" --></td>
+		<td><a href="https://ftp.libertybsd.net/pub/LibertyBSD">HTTP(S)</a>,
+			<a href="ftp://ftp.libertybsd.net/pub/LibertyBSD">FTP</a></td>
+	</tr>
+</table>
+</center>
+
+<!-- <h2><!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en download_old_mirrors" --></h2>
+
+<p><!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en download_old_mirrors_info" --></h2>
+
+<center>
+<table border=2>
+	<tr>
+		<td><b><!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en download_host" --> </b></td>
+		<td><b><!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en download_last_version" --> </b></td>
+		<td><b><!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en download_location" --> </b></td>
+		<td><b><!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en download_protocols" --> </b></td>
+	</tr>
+</table>
+</center> -->
+
+<!--#include file="res/footer.html" -->
