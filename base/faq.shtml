@@ -5,7 +5,7 @@
 
 <ul id="#faq">
 	<li class="question" id="arch"><!--ml.sh LL faq_qarch"--></li>
-	<li class="answer"><!--ml.sh LL faq_qarch"--></li>
+	<li class="answer"><!--ml.sh LL faq_aarch"--></li>
 
 	<li class="question" id="fsf"><!--ml.sh LL faq_qfsf"--></li>
 	<li class="answer"><!--ml.sh LL faq_afsf"--></li>
