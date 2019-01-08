@@ -5,4 +5,4 @@ footer="$(cat /htdocs/libertybsd.net/res/footer.html)"
 lang="$1"
 
 echo "$footer" \
-| sed 's% LICENSE %'"$(mlsh $lang footer_license)"'%g'
+| sed 's%LICENSE%'"$(mlsh $lang footer_license)"'%g'

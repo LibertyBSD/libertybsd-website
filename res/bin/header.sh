@@ -8,8 +8,8 @@ title="$(mlsh $lang $title_raw)"
 
 echo "$header" \
 | sed 's% TT %'"$title"'%g' \
-| sed 's% INDEX %'"$(mlsh $lang index)"'%g' \
-| sed 's% INSTALL %'"$(mlsh $lang install)"'%g' \
-| sed 's% FAQS %'"$(mlsh $lang faqs)"'%g' \
-| sed 's% DOWNLOAD %'"$(mlsh $lang download)"'%g' \
-| sed 's% GIT %'"$(mlsh $lang git)"'%g'
+| sed 's% INDEX %'"$(mlsh $lang header_index)"'%g' \
+| sed 's% INSTALL %'"$(mlsh $lang header_install)"'%g' \
+| sed 's% FAQS %'"$(mlsh $lang header_faqs)"'%g' \
+| sed 's% DOWNLOAD %'"$(mlsh $lang header_download)"'%g' \
+| sed 's% GIT %'"$(mlsh $lang header_git)"'%g'
