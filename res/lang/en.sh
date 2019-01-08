@@ -44,6 +44,9 @@ download_old_mirrors="Old Mirrors"
 download_last_version="Last Version"
 download_full="Full"
 download_install_only="Install-only"
+download_defunct_mirrors="Defunct Mirrors"
+download_defunct_mirrors_info="These are sites that once mirrored LibertyBSD,
+but don't anymore for one reason or another."
 
 
 location_chiba_japan="Chiba, Japan"

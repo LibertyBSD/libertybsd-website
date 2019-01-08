@@ -41,6 +41,9 @@ download_old_mirrors="Praaj Speguloj"
 download_last_version="Lastaj Versioj"
 download_full="Plena"
 download_install_only="Nurinstala"
+download_defunct_mirrors="Eksaj Speguloj"
+download_defunct_mirrors_info="Ĉi tiuj retejoj antaŭe spegulis LibertyBSD'on,
+sed, iakiale ĉesis."
 
 
 location_chiba_japan="Ĉiba, Japano"
