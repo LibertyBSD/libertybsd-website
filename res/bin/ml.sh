@@ -8,11 +8,10 @@
 #	websites, especially in combination with server-side-includes.
 
 
-if [ $1 == "en" ]
-then
-	. /var/www/htdocs/libertybsd.net/res/lang/en.sh
-fi
-
+case "$1" in
+	"en") . /var/www/htdocs/libertybsd.net/res/lang/en.sh ;;
+	"eo") . /var/www/htdocs/libertybsd.net/res/lang/eo.sh ;;
+esac
 
 var=$2
 

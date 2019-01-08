@@ -4,41 +4,41 @@
 
 <a id="logo" href="res/img/art/logo.png">
 	<img src="res/img/art/logo.png"
-		width=400px alt="<!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en art-logo" -->
-ibertyBSD's logo">
+		width=400px alt="<!--ml.sh LL art-logo" -->
+LibertyBSD's logo">
 
 
 <div id="screens">
 	<a href="res/img/screens/xdm.png">
 		<img src="res/img/screens/xdm.png"
-			width=300px alt="<!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en art_xenodm" -->">
+			width=300px alt="<!--ml.sh LL art_xenodm" -->">
 	<a href="res/img/screens/x11.png">
 		<img src="res/img/screens/x11.png"
-			width=300px alt="<!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en art_x11" -->">
+			width=300px alt="<!--ml.sh LL art_x11" -->">
 </div>
 
 <p id="contact">
-	<!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en index_raddle" --> <br />
-	<!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en index_reddit" --> <br />
-	<!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en index_freenode" -->
+	<!--ml.sh LL index_raddle" --> <br />
+	<!--ml.sh LL index_reddit" --> <br />
+	<!--ml.sh LL index_freenode" -->
 </p>
 
 
 <div id="description">
 <p>
-<!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en index_p1" -->
+<!--ml.sh LL index_p1" -->
 </p>
 
 <p>
-<!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en index_p2" -->
+<!--ml.sh LL index_p2" -->
 </p>
 
 <p>
-<!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en index_p3" -->
+<!--ml.sh LL index_p3" -->
 </p>
 
 <p>
-<!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/lang/ml.sh en index_p4" -->
+<!--ml.sh LL index_p4" -->
 </p>
 </div>
 
