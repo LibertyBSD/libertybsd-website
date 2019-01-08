@@ -1,6 +1,4 @@
-<!--#include file="res/header.html" -->
-
-<title>LibertyBSD</title>
+<!--header.sh LL title_index"-->
 
 <a id="logo" href="res/img/art/logo.png">
 	<img src="res/img/art/logo.png"
@@ -43,7 +41,4 @@ LibertyBSD's logo">
 </div>
 
 
-
-
-
-<!--#include file="res/footer.html" -->
+<!--footer.sh LL"-->

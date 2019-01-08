@@ -1,4 +1,4 @@
-#!/usr/local/bin/bin/bash
+#!/usr/bin/env bash
 
 # name: multilang (ml.sh)
 # main: jaidyn <jadedctrl@teknik.io>

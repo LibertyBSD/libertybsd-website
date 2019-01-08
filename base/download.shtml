@@ -1,6 +1,4 @@
-<!--#include file="res/header.html" -->
-
-<title><!--ml.sh LL download_downloads" --> - LibertyBSD</title>
+<!--header.sh LL title_downloads"-->
 
 <h2><!--ml.sh LL download_downloads" --></h2>
 
@@ -53,4 +51,4 @@
 </table>
 </center> -->
 
-<!--#include file="res/footer.html" -->
+<!--footer.sh LL"-->

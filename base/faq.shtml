@@ -1,7 +1,5 @@
-<!--#include file="res/header.html" -->
+<!--header.sh LL title_faqs"-->
 
-
-<title>FAQs - LibertyBSD</title>
 
 <h1>Frequently-Asked Questions</h1>
 
@@ -53,4 +51,4 @@
 		squeaky-clean and fully-libre, by the way.</li>
 </ul>
 
-<!--#include file="res/footer.html" -->
+<!--footer.sh LL"-->

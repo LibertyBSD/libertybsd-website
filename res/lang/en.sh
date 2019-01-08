@@ -49,3 +49,26 @@ download_install_only="Install-only"
 location_chiba_japan="Chiba, Japan"
 location_usa="USA"
 location_texas_usa="Texas, USA"
+
+
+# ---------------------------------------
+# header
+
+index="Index"
+downloads="Downloads"
+faqs="FAQs"
+install="Install Guide"
+git="Git"
+
+title_index="LibertyBSD - Index"
+title_download="LibertyBSD - Download"
+title_install="LibertyBSD - Installation"
+title_git="LibertyBSD - Git"
+
+# ---------------------------------------
+# footer
+ 
+footer_license="The HTML & CSS used to generate this webpage is hereby released
+into the public domain. This applies worldwide. In case this is not legally
+possible, any entity is granted the right to use this work for any purpose,
+without any conditions, unless such conditions are required by law."
