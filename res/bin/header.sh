@@ -7,6 +7,7 @@ title_raw="$2"
 title="$(mlsh $lang $title_raw)"
 
 echo "$header" \
+| sed 's% LL %'"$lang"'%g' \
 | sed 's% TT %'"$title"'%g' \
 | sed 's% INDEX %'"$(mlsh $lang header_index)"'%g' \
 | sed 's% INSTALL %'"$(mlsh $lang header_install)"'%g' \

@@ -2,6 +2,7 @@
 
 # INDEKSO
 ##################
+title_index="LibertyBSD"
 
 index_raddle="/f/libertybsd ĉe <a href='https://raddle.me'>raddle</a> &#x1f44d;"
 index_reddit="/r/libertybsd ĉe <a href='https://reddit.com'>reddit</a> &#x1f44e;"
@@ -30,6 +31,7 @@ via operaciumo."
 
 # ELŜUTOJ
 ##################
+title_download="LBSD - Elŝutoj"
 
 download_downloads="Elŝutoj"
 download_host="Gastiganto"
