@@ -1,7 +1,7 @@
 #!/bin/sh
 
-alias mlsh=/htdocs/libertybsd.net/res/bin/ml.sh
-footer="$(cat /htdocs/libertybsd.net/res/footer.html)"
+alias mlsh=/htdocs/libertybsd.net/http/res/bin/ml.sh
+footer="$(cat /htdocs/libertybsd.net/http/res/footer.html)"
 lang="$1"
 
 echo "$footer" \

@@ -1,7 +1,7 @@
 #!/bin/sh
 
-alias mlsh=/htdocs/libertybsd.net/res/bin/ml.sh
-header="$(cat /htdocs/libertybsd.net/res/header.html)"
+alias mlsh=/htdocs/libertybsd.net/http/res/bin/ml.sh
+header="$(cat /htdocs/libertybsd.net/http/res/header.html)"
 lang="$1"
 title_raw="$2"
 title="$(mlsh $lang $title_raw)"

@@ -9,8 +9,9 @@
 
 
 case "$1" in
-	"en") . /htdocs/libertybsd.net/res/lang/en.sh ;;
-	"eo") . /htdocs/libertybsd.net/res/lang/eo.sh ;;
+	"en") . /htdocs/libertybsd.net/http/res/lang/en.sh ;;
+	"es") . /htdocs/libertybsd.net/http/res/lang/en.sh ;;
+	"eo") . /htdocs/libertybsd.net/http/res/lang/eo.sh ;;
 esac
 
 var=$2
