@@ -7,7 +7,7 @@ function process_file
 	local file="$1"
 	local lang="$2"
 
-	sed -i 's%<!--ml.sh LL%<!--#exec cmd="bash /var/www/htdocs/libertybsd.net/res/bin/ml.sh LL%g' $file
+	sed -i 's%<!--ml.sh LL%<!--#exec cmd="bash /htdocs/libertybsd.net/res/bin/ml.sh LL%g' $file
 	sed -i 's% LL % '"$lang"' %g' $file
 }
 
