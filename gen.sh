@@ -7,9 +7,9 @@ function process_file
 	local file="$1"
 	local lang="$2"
 
-	sed -i 's%<!--ml.sh LL%<!--#exec cmd="bash /htdocs/libertybsd.net/res/bin/ml.sh LL%g' $file
-	sed -i 's%<!--header.sh LL%<!--#exec cmd="sh /htdocs/libertybsd.net/res/bin/header.sh LL%g' $file
-	sed -i 's%<!--footer.sh LL%<!--#exec cmd="sh /htdocs/libertybsd.net/res/bin/footer.sh LL%g' $file
+	sed -i 's%<!--ml.sh LL%<!--#exec cmd="bash /htdocs/libertybsd.net/http/res/bin/ml.sh LL%g' $file
+	sed -i 's%<!--header.sh LL%<!--#exec cmd="sh /htdocs/libertybsd.net/http/res/bin/header.sh LL%g' $file
+	sed -i 's%<!--footer.sh LL%<!--#exec cmd="sh /htdocs/libertybsd.net/http/res/bin/footer.sh LL%g' $file
 	sed -i 's% LL % '"$lang"' %g' $file
 }
 
@@ -21,6 +21,8 @@ function gen_lang_ver
 	mkdir public 2>/dev/null
 	mkdir public/$lang
 	cp -r base/* public/$lang/
+	cp -r res/ public/$lang/
+	rm -rf public/$lang/res/bin
 
 	for file in ./public/$lang/*.shtml
 	do

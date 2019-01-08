@@ -10,7 +10,7 @@
 
 case "$1" in
 	"en") . /htdocs/libertybsd.net/http/res/lang/en.sh ;;
-	"es") . /htdocs/libertybsd.net/http/res/lang/en.sh ;;
+	"es") . /htdocs/libertybsd.net/http/res/lang/es.sh ;;
 	"eo") . /htdocs/libertybsd.net/http/res/lang/eo.sh ;;
 esac
 
