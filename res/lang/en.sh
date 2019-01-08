@@ -4,6 +4,8 @@
 # INDEX
 ##################
 
+title_index="LibertyBSD"
+
 index_raddle="/f/libertybsd on <a href='https://raddle.me'>raddle</a> &#x1f44d;"
 index_reddit="/r/libertybsd on <a href='https://reddit.com'>reddit</a> &#x1f44e;"
 index_freenode="#libertybsd on <a href='https://freenode.net'>Freenode</a> &#x2605;"
@@ -34,6 +36,8 @@ sacrificing your freedom."
 # DOWNLOADS
 ##################
 
+title_download="LBSD - Downloads"
+
 download_downloads="Downloads"
 download_host="Host"
 download_type="Type"
@@ -51,19 +55,16 @@ location_usa="USA"
 location_texas_usa="Texas, USA"
 
 
+
 # ---------------------------------------
 # header
 
-index="Index"
-downloads="Downloads"
-faqs="FAQs"
-install="Install Guide"
-git="Git"
+header_index="Index"
+header_download="Downloads"
+header_faqs="FAQs"
+header_install="Install Guide"
+header_git="Git"
 
-title_index="LibertyBSD - Index"
-title_download="LibertyBSD - Download"
-title_install="LibertyBSD - Installation"
-title_git="LibertyBSD - Git"
 
 # ---------------------------------------
 # footer
